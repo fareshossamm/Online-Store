@@ -37,7 +37,7 @@
     white-space: normal;
 
   }
-  
+
   .card-title {
     font-size: 1.25rem;
     font-weight: bold;
@@ -46,10 +46,21 @@
   }
   
   .card-text {
-    font-size: 1rem;
+    font-size: 22px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #777;
+    text-align: center; /* Add this line to center the text */
   }
   
+  @media (max-width: 768px) {
+    .card-text {
+      font-size: 18px;
+   
+    }
+  
+  }
   /* Button styling */
 
 /*   

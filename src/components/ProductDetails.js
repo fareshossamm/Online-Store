@@ -83,9 +83,9 @@ function ProductDetails() {
         <div className="col-lg-6 col-md-12">
           <img className="details-img img-fluid rounded" src={product.image} alt={product.title} />
         </div>
-        <div className="col-lg-6 col-md-12 text mt-2">
+        <div className="col-lg-6 col-md-12 text mt-4">
           <h2 className="mb-2 mt-5">{product.title}</h2>
-          <p className="card-text lead mb-4">{truncateText(product.description, 400)}</p>
+          <p className="card-text mb-4">{truncateText(product.description, 400)}</p>
           <div className="rating">
             <span className="rating-text">
               <strong>
