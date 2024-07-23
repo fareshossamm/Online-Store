@@ -1,15 +1,19 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
+import { BrowserRouter as Router,Routes, Route, Switch } from 'react-router-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import ProductsList from './components/ProductsList';
-import { Routes, Route } from "react-router-dom";
 import About from './components/About';
 import ProductDetails from './components/ProductDetails';
 import ConatctUs from './components/ConatctUs';
 import Services from './components/Services';
 import Cart from './components/Cart';
 import Sales from './components/Sales';
+
 
 function App() {
   return (
@@ -24,6 +28,7 @@ function App() {
             
           </>
         } />
+        <Route path="/" element={<Slider />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ConatctUs />} />
         <Route path="/services" element={<Services />} />
