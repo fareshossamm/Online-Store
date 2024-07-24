@@ -18,18 +18,18 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav">
-                <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                <Link className="nav-link" aria-current="page" to={'/'}>Home</Link>
               </li>
               <li className="nav">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to={'/about'}>About</Link>
               </li>
               <li className="nav">
-                <Link className="nav-link" to="/services">services</Link>
+                <Link className="nav-link" to={'/services'}>services</Link>
               </li>
               <li className="nav">
-                <Link className="nav-link" to="/contact">contact us</Link>
+                <Link className="nav-link" to={'/contact'} >contact us</Link>
               </li>
-              <Link className="nav-link" to="/cart">
+              <Link className="nav-link" to={'/cart'} >
                 <FontAwesomeIcon  icon={faShoppingCart} className=" cart mr-5 " />
               </Link>
         
