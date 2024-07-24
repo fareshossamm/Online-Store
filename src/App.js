@@ -3,7 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is import
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import ProductsList from './components/ProductsList';
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
+// import { Routes, Route } from "react-router-dom";
 import About from './components/About';
 import ProductDetails from './components/ProductDetails';
 import ContactUs from './components/ContactUs';

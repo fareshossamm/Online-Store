@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
-import AboutImage from './Imgs/about.svg'; // Adjust the path to your SVG file
-
+import AboutImage from './Imgs/about.svg'; 
 function About() {
   return (
     <div className='about mt-5'>
