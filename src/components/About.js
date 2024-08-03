@@ -4,7 +4,7 @@ import AboutImage from './Imgs/about.svg';
 function About() {
   return (
     <div className='about mt-5'>
-      <h1 className='about-title'>About<span className='blue'>Us</span> </h1>
+      <h1 className='about-title'>About<span className='blue'> Us</span> </h1>
       <div className='about-content'>
         <div className='about-image'>
           <img src={AboutImage} alt='About Us' />
